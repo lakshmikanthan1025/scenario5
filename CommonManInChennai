@@ -1,0 +1,17 @@
+package tamilnadu.chennai;
+
+class CommonManInChennai implements TrafficRules{
+public static void main(String args[]){
+CommonManInChennai cmc = new CommonManInChennai();
+cmc.goByDieselVehicle();
+cmc.goByBicycle();
+}
+
+public void goByDieselVehicle(){
+System.out.println("hellooo");
+}
+
+public void goByBicycle(){
+System.out.println("hellooo madam");
+}
+}
