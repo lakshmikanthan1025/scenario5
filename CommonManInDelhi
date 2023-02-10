@@ -1,0 +1,19 @@
+package india.newDelhi;
+import tamilnadu.chennai.TrafficRules;
+public class CommonManInDelhi implements TrafficRulesDelhi,TrafficRules{
+public static void main(String args[]){
+CommonManInDelhi cmd = new CommonManInDelhi();
+cmd.dontGoByDieselVehicle();
+cmd.goByBicycle();
+}
+public void dontGoByDieselVehicle(){
+System.out.println("hanii");
+}
+
+public void goByBicycle(){
+System.out.println("hanii dheena");
+}
+public void goByDieselVehicle(){
+System.out.println("hai diesel");
+}
+}
